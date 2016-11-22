@@ -7,10 +7,10 @@
 //
 
 public class ShadowStyle {
-    var offset: CGSize?
-    var color: UIColor?
-    var radius: CGFloat?
-    var opacity: Float?
+    public var offset: CGSize?
+    public var color: UIColor?
+    public var radius: CGFloat?
+    public var opacity: Float?
     
     public init() { }
     
