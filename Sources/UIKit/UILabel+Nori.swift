@@ -15,7 +15,5 @@ public extension UILabel {
         numberOfLines ??= style.lines
         minimumScaleFactor ??= style.minimumScale
         adjustsFontSizeToFitWidth = minimumScaleFactor > 0.0
-        
-        clipsToBounds = false
     }
 }
