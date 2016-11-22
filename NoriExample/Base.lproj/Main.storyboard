@@ -22,8 +22,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="IFq-TM-Ej6">
-                                <rect key="frame" x="16" y="20" width="343" height="178"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="IFq-TM-Ej6">
+                                <rect key="frame" x="16" y="40" width="343" height="303.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nori" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3q-cU-dle" customClass="LargeLabel" customModule="NoriExample" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="58.5" height="38.5"/>
@@ -32,29 +32,46 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nori is a library for designing Storyboard with source code." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yB8-LD-Gvp" customClass="SmallLabel" customModule="NoriExample" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="54.5" width="343" height="33.5"/>
+                                        <rect key="frame" x="0.0" y="58.5" width="343" height="33.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="License" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjX-xi-cVK" customClass="MediumLabel" customModule="NoriExample" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="104" width="69.5" height="24"/>
+                                        <rect key="frame" x="0.0" y="112" width="69.5" height="24"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nori is released under the MIT license. See LICENSE for details." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H3C-SQ-IUx" customClass="SmallLabel" customModule="NoriExample" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="144" width="340" height="33.5"/>
+                                        <rect key="frame" x="0.0" y="156" width="340" height="33.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sxe-jj-RA1">
+                                        <rect key="frame" x="0.0" y="209.5" width="343" height="42"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hm7-30-fh7" customClass="PositiveButton" customModule="NoriExample" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="166.5" height="42"/>
+                                                <state key="normal" title="Good"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mbE-gr-mfs" customClass="NegativeButton" customModule="NoriExample" customModuleProvider="target">
+                                                <rect key="frame" x="176.5" y="0.0" width="166.5" height="42"/>
+                                                <state key="normal" title="Bad"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sgl-PG-Wqp" customClass="LinkButton" customModule="NoriExample" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="271.5" width="343" height="32"/>
+                                        <state key="normal" title="View on Github"/>
+                                    </button>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="IFq-TM-Ej6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="9FA-FN-0Xw"/>
+                            <constraint firstItem="IFq-TM-Ej6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="9FA-FN-0Xw"/>
                             <constraint firstItem="IFq-TM-Ej6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Vpe-Zg-kH4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="IFq-TM-Ej6" secondAttribute="trailing" id="WgW-fI-Mww"/>
                         </constraints>

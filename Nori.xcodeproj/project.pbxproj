@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		46B0F7071DE419C400BEB69F /* StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B0F7061DE419C400BEB69F /* StyleGuide.swift */; };
+		46B0F7091DE42D6500BEB69F /* NegativeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B0F7081DE42D6500BEB69F /* NegativeButton.swift */; };
+		46B0F70B1DE42D8100BEB69F /* LinkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B0F70A1DE42D8100BEB69F /* LinkButton.swift */; };
 		46BDBEAA1DE3F25B00CD7963 /* Nori.h in Headers */ = {isa = PBXBuildFile; fileRef = 46BDBEA81DE3F25B00CD7963 /* Nori.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46BDBEBB1DE3F39400CD7963 /* ViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDBEB91DE3F39400CD7963 /* ViewStyle.swift */; };
 		46BDBEBD1DE3F3A300CD7963 /* BorderStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDBEBC1DE3F3A300CD7963 /* BorderStyle.swift */; };
@@ -35,7 +37,7 @@
 		46BDBEF21DE3F9C700CD7963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BDBEF01DE3F9C700CD7963 /* Main.storyboard */; };
 		46BDBEF41DE3F9C700CD7963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46BDBEF31DE3F9C700CD7963 /* Assets.xcassets */; };
 		46BDBEF71DE3F9C700CD7963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BDBEF51DE3F9C700CD7963 /* LaunchScreen.storyboard */; };
-		46BDBF051DE3FA6600CD7963 /* StrongButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDBF031DE3FA6600CD7963 /* StrongButton.swift */; };
+		46BDBF051DE3FA6600CD7963 /* PositiveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDBF031DE3FA6600CD7963 /* PositiveButton.swift */; };
 		46BDBF071DE3FA7400CD7963 /* LargeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDBF061DE3FA7400CD7963 /* LargeLabel.swift */; };
 		46BDBF091DE3FA8100CD7963 /* MediumLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDBF081DE3FA8100CD7963 /* MediumLabel.swift */; };
 		46BDBF0B1DE3FA8C00CD7963 /* SmallLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDBF0A1DE3FA8C00CD7963 /* SmallLabel.swift */; };
@@ -53,6 +55,8 @@
 
 /* Begin PBXFileReference section */
 		46B0F7061DE419C400BEB69F /* StyleGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleGuide.swift; sourceTree = "<group>"; };
+		46B0F7081DE42D6500BEB69F /* NegativeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NegativeButton.swift; sourceTree = "<group>"; };
+		46B0F70A1DE42D8100BEB69F /* LinkButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkButton.swift; sourceTree = "<group>"; };
 		46BDBEA51DE3F25B00CD7963 /* Nori.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nori.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46BDBEA81DE3F25B00CD7963 /* Nori.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nori.h; sourceTree = "<group>"; };
 		46BDBEA91DE3F25B00CD7963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -84,7 +88,7 @@
 		46BDBEF31DE3F9C700CD7963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46BDBEF61DE3F9C700CD7963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46BDBEF81DE3F9C700CD7963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46BDBF031DE3FA6600CD7963 /* StrongButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrongButton.swift; sourceTree = "<group>"; };
+		46BDBF031DE3FA6600CD7963 /* PositiveButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositiveButton.swift; sourceTree = "<group>"; };
 		46BDBF061DE3FA7400CD7963 /* LargeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeLabel.swift; sourceTree = "<group>"; };
 		46BDBF081DE3FA8100CD7963 /* MediumLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumLabel.swift; sourceTree = "<group>"; };
 		46BDBF0A1DE3FA8C00CD7963 /* SmallLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallLabel.swift; sourceTree = "<group>"; };
@@ -215,7 +219,9 @@
 		46BDBF021DE3FA6600CD7963 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				46BDBF031DE3FA6600CD7963 /* StrongButton.swift */,
+				46BDBF031DE3FA6600CD7963 /* PositiveButton.swift */,
+				46B0F7081DE42D6500BEB69F /* NegativeButton.swift */,
+				46B0F70A1DE42D8100BEB69F /* LinkButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -376,12 +382,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				46B0F7071DE419C400BEB69F /* StyleGuide.swift in Sources */,
-				46BDBF051DE3FA6600CD7963 /* StrongButton.swift in Sources */,
+				46BDBF051DE3FA6600CD7963 /* PositiveButton.swift in Sources */,
 				46BDBF091DE3FA8100CD7963 /* MediumLabel.swift in Sources */,
 				46BDBEEF1DE3F9C700CD7963 /* ViewController.swift in Sources */,
 				46BDBF071DE3FA7400CD7963 /* LargeLabel.swift in Sources */,
 				46BDBF0B1DE3FA8C00CD7963 /* SmallLabel.swift in Sources */,
+				46B0F70B1DE42D8100BEB69F /* LinkButton.swift in Sources */,
 				46BDBEED1DE3F9C700CD7963 /* AppDelegate.swift in Sources */,
+				46B0F7091DE42D6500BEB69F /* NegativeButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@ import Nori
 @IBDesignable class SmallLabel: StyleableLabel {
     override func intrinsicStyle() -> LabelStyle {
         return LabelStyle {
-            $0.textColor = FontColor.black.color
+            $0.textColor = Color.black.color
             $0.font = UIFont.systemFont(ofSize: FontSize.small.point)
             $0.lines = 0
         }

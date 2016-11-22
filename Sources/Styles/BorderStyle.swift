@@ -7,8 +7,8 @@
 //
 
 public class BorderStyle {
-    var color: UIColor?
-    var width: CGFloat?
+    public var color: UIColor?
+    public var width: CGFloat?
     
     public init() { }
     

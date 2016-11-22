@@ -18,7 +18,7 @@ enum FontSize: Int {
     }
 }
 
-enum FontColor: Int {
+enum Color: Int {
     case black = 0x3a3e4b
     case gray = 0x95a5a6
     case darkGray = 0x7f8c8d
