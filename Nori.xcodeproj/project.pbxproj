@@ -10,6 +10,8 @@
 		46B0F7071DE419C400BEB69F /* StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B0F7061DE419C400BEB69F /* StyleGuide.swift */; };
 		46B0F7091DE42D6500BEB69F /* NegativeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B0F7081DE42D6500BEB69F /* NegativeButton.swift */; };
 		46B0F70B1DE42D8100BEB69F /* LinkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B0F70A1DE42D8100BEB69F /* LinkButton.swift */; };
+		46B0F7131DE431F900BEB69F /* NoriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B0F7121DE431F900BEB69F /* NoriTests.swift */; };
+		46B0F7151DE431F900BEB69F /* Nori.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46BDBEA51DE3F25B00CD7963 /* Nori.framework */; };
 		46BDBEAA1DE3F25B00CD7963 /* Nori.h in Headers */ = {isa = PBXBuildFile; fileRef = 46BDBEA81DE3F25B00CD7963 /* Nori.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46BDBEBB1DE3F39400CD7963 /* ViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDBEB91DE3F39400CD7963 /* ViewStyle.swift */; };
 		46BDBEBD1DE3F3A300CD7963 /* BorderStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDBEBC1DE3F3A300CD7963 /* BorderStyle.swift */; };
@@ -51,12 +53,22 @@
 			remoteGlobalIDString = 46BDBEA41DE3F25B00CD7963;
 			remoteInfo = Nori;
 		};
+		46B0F7161DE431F900BEB69F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46BDBE9C1DE3F25B00CD7963 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46BDBEA41DE3F25B00CD7963;
+			remoteInfo = Nori;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		46B0F7061DE419C400BEB69F /* StyleGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleGuide.swift; sourceTree = "<group>"; };
 		46B0F7081DE42D6500BEB69F /* NegativeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NegativeButton.swift; sourceTree = "<group>"; };
 		46B0F70A1DE42D8100BEB69F /* LinkButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkButton.swift; sourceTree = "<group>"; };
+		46B0F7101DE431F900BEB69F /* NoriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B0F7121DE431F900BEB69F /* NoriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoriTests.swift; sourceTree = "<group>"; };
+		46B0F7141DE431F900BEB69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46BDBEA51DE3F25B00CD7963 /* Nori.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nori.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46BDBEA81DE3F25B00CD7963 /* Nori.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nori.h; sourceTree = "<group>"; };
 		46BDBEA91DE3F25B00CD7963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,6 +107,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		46B0F70D1DE431F900BEB69F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B0F7151DE431F900BEB69F /* Nori.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		46BDBEA11DE3F25B00CD7963 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -112,12 +132,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46B0F7111DE431F900BEB69F /* NoriTests */ = {
+			isa = PBXGroup;
+			children = (
+				46B0F7121DE431F900BEB69F /* NoriTests.swift */,
+				46B0F7141DE431F900BEB69F /* Info.plist */,
+			);
+			path = NoriTests;
+			sourceTree = "<group>";
+		};
 		46BDBE9B1DE3F25B00CD7963 = {
 			isa = PBXGroup;
 			children = (
 				46BDBEB01DE3F27A00CD7963 /* Sources */,
 				46BDBEA71DE3F25B00CD7963 /* Nori */,
 				46BDBEEB1DE3F9C700CD7963 /* NoriExample */,
+				46B0F7111DE431F900BEB69F /* NoriTests */,
 				46BDBEA61DE3F25B00CD7963 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -127,6 +157,7 @@
 			children = (
 				46BDBEA51DE3F25B00CD7963 /* Nori.framework */,
 				46BDBEEA1DE3F9C700CD7963 /* NoriExample.app */,
+				46B0F7101DE431F900BEB69F /* NoriTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -250,6 +281,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		46B0F70F1DE431F900BEB69F /* NoriTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46B0F7181DE431F900BEB69F /* Build configuration list for PBXNativeTarget "NoriTests" */;
+			buildPhases = (
+				46B0F70C1DE431F900BEB69F /* Sources */,
+				46B0F70D1DE431F900BEB69F /* Frameworks */,
+				46B0F70E1DE431F900BEB69F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46B0F7171DE431F900BEB69F /* PBXTargetDependency */,
+			);
+			name = NoriTests;
+			productName = NoriTests;
+			productReference = 46B0F7101DE431F900BEB69F /* NoriTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		46BDBEA41DE3F25B00CD7963 /* Nori */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46BDBEAD1DE3F25B00CD7963 /* Build configuration list for PBXNativeTarget "Nori" */;
@@ -296,6 +345,11 @@
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = yukiasai;
 				TargetAttributes = {
+					46B0F70F1DE431F900BEB69F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NRUDQDRGJZ;
+						ProvisioningStyle = Automatic;
+					};
 					46BDBEA41DE3F25B00CD7963 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = NRUDQDRGJZ;
@@ -324,11 +378,19 @@
 			targets = (
 				46BDBEA41DE3F25B00CD7963 /* Nori */,
 				46BDBEE91DE3F9C700CD7963 /* NoriExample */,
+				46B0F70F1DE431F900BEB69F /* NoriTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		46B0F70E1DE431F900BEB69F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		46BDBEA31DE3F25B00CD7963 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -349,6 +411,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		46B0F70C1DE431F900BEB69F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B0F7131DE431F900BEB69F /* NoriTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		46BDBEA01DE3F25B00CD7963 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -401,6 +471,11 @@
 			target = 46BDBEA41DE3F25B00CD7963 /* Nori */;
 			targetProxy = 466B8D191DE4090700996557 /* PBXContainerItemProxy */;
 		};
+		46B0F7171DE431F900BEB69F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46BDBEA41DE3F25B00CD7963 /* Nori */;
+			targetProxy = 46B0F7161DE431F900BEB69F /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -423,6 +498,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		46B0F7191DE431F900BEB69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = NRUDQDRGJZ;
+				INFOPLIST_FILE = NoriTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukiasai.NoriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		46B0F71A1DE431F900BEB69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = NRUDQDRGJZ;
+				INFOPLIST_FILE = NoriTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukiasai.NoriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		46BDBEAB1DE3F25B00CD7963 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -592,6 +691,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		46B0F7181DE431F900BEB69F /* Build configuration list for PBXNativeTarget "NoriTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B0F7191DE431F900BEB69F /* Debug */,
+				46B0F71A1DE431F900BEB69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		46BDBE9F1DE3F25B00CD7963 /* Build configuration list for PBXProject "Nori" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
