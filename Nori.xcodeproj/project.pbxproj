@@ -10,7 +10,6 @@
 		46B0F7071DE419C400BEB69F /* StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B0F7061DE419C400BEB69F /* StyleGuide.swift */; };
 		46B0F7091DE42D6500BEB69F /* NegativeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B0F7081DE42D6500BEB69F /* NegativeButton.swift */; };
 		46B0F70B1DE42D8100BEB69F /* LinkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B0F70A1DE42D8100BEB69F /* LinkButton.swift */; };
-		46B0F7131DE431F900BEB69F /* NoriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B0F7121DE431F900BEB69F /* NoriTests.swift */; };
 		46B0F7151DE431F900BEB69F /* Nori.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46BDBEA51DE3F25B00CD7963 /* Nori.framework */; };
 		46B0F71C1DE4325000BEB69F /* ViewStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B0F71B1DE4325000BEB69F /* ViewStyleTests.swift */; };
 		46B0F71E1DE4364D00BEB69F /* LabelStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B0F71D1DE4364D00BEB69F /* LabelStyleTests.swift */; };
@@ -69,7 +68,6 @@
 		46B0F7081DE42D6500BEB69F /* NegativeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NegativeButton.swift; sourceTree = "<group>"; };
 		46B0F70A1DE42D8100BEB69F /* LinkButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkButton.swift; sourceTree = "<group>"; };
 		46B0F7101DE431F900BEB69F /* NoriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		46B0F7121DE431F900BEB69F /* NoriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoriTests.swift; sourceTree = "<group>"; };
 		46B0F7141DE431F900BEB69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46B0F71B1DE4325000BEB69F /* ViewStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewStyleTests.swift; sourceTree = "<group>"; };
 		46B0F71D1DE4364D00BEB69F /* LabelStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelStyleTests.swift; sourceTree = "<group>"; };
@@ -139,7 +137,6 @@
 		46B0F7111DE431F900BEB69F /* NoriTests */ = {
 			isa = PBXGroup;
 			children = (
-				46B0F7121DE431F900BEB69F /* NoriTests.swift */,
 				46B0F7141DE431F900BEB69F /* Info.plist */,
 				46B0F71B1DE4325000BEB69F /* ViewStyleTests.swift */,
 				46B0F71D1DE4364D00BEB69F /* LabelStyleTests.swift */,
@@ -423,7 +420,6 @@
 			files = (
 				46B0F71C1DE4325000BEB69F /* ViewStyleTests.swift in Sources */,
 				46B0F71E1DE4364D00BEB69F /* LabelStyleTests.swift in Sources */,
-				46B0F7131DE431F900BEB69F /* NoriTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -706,6 +702,7 @@
 				46B0F71A1DE431F900BEB69F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46BDBE9F1DE3F25B00CD7963 /* Build configuration list for PBXProject "Nori" */ = {
 			isa = XCConfigurationList;
