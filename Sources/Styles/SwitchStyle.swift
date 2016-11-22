@@ -7,5 +7,10 @@
 //
 
 public class SwitchStyle: ViewStyle {
-    var onTintColor: UIColor?
+    public var onTintColor: UIColor?
+    
+    public convenience init(closure: (SwitchStyle) -> Void) {
+        self.init()
+        closure(self)
+    }
 }
