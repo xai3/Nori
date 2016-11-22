@@ -7,8 +7,13 @@
 //
 
 public class TextFieldStyle: ViewStyle {
-    var textColor: UIColor?
-    var font: UIFont?
-    var align: NSTextAlignment?
-    var borderStyle: UITextBorderStyle?
+    public var textColor: UIColor?
+    public var font: UIFont?
+    public var align: NSTextAlignment?
+    public var borderStyle: UITextBorderStyle?
+    
+    public convenience init(closure: (TextFieldStyle) -> Void) {
+        self.init()
+        closure(self)
+    }
 }
