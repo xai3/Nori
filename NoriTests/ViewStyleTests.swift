@@ -54,26 +54,4 @@ class ViewStyleTests: XCTestCase {
         view.stylize(with: style)
         XCTAssertEqual(view.contentMode, style.contentMode)
     }
-    
-    func testBorderColor() {
-        let view = UIView()
-        let style = ViewStyle {
-            $0.border = BorderStyle {
-                $0.color = UIColor.red
-            }
-        }
-        view.stylize(with: style)
-        XCTAssertEqual(view.layer.borderColor, style.border?.color?.cgColor)
-    }
-    
-    func testBorderWidth() {
-        let view = UIView()
-        let style = ViewStyle {
-            $0.border = BorderStyle {
-                $0.width = 5
-            }
-        }
-        view.stylize(with: style)
-        XCTAssertEqualWithAccuracy(view.layer.borderWidth, style.border!.width!, accuracy: CGFloat(FLT_EPSILON))
-    }
 }

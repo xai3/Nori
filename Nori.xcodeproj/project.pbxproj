@@ -13,6 +13,7 @@
 		46B0F7151DE431F900BEB69F /* Nori.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46BDBEA51DE3F25B00CD7963 /* Nori.framework */; };
 		46B0F71C1DE4325000BEB69F /* ViewStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B0F71B1DE4325000BEB69F /* ViewStyleTests.swift */; };
 		46B0F71E1DE4364D00BEB69F /* LabelStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B0F71D1DE4364D00BEB69F /* LabelStyleTests.swift */; };
+		46B8316F1DE6640C00F64487 /* BorderStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B8316E1DE6640C00F64487 /* BorderStyleTests.swift */; };
 		46BDBEAA1DE3F25B00CD7963 /* Nori.h in Headers */ = {isa = PBXBuildFile; fileRef = 46BDBEA81DE3F25B00CD7963 /* Nori.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46BDBEBB1DE3F39400CD7963 /* ViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDBEB91DE3F39400CD7963 /* ViewStyle.swift */; };
 		46BDBEBD1DE3F3A300CD7963 /* BorderStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDBEBC1DE3F3A300CD7963 /* BorderStyle.swift */; };
@@ -71,6 +72,7 @@
 		46B0F7141DE431F900BEB69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46B0F71B1DE4325000BEB69F /* ViewStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewStyleTests.swift; sourceTree = "<group>"; };
 		46B0F71D1DE4364D00BEB69F /* LabelStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelStyleTests.swift; sourceTree = "<group>"; };
+		46B8316E1DE6640C00F64487 /* BorderStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderStyleTests.swift; sourceTree = "<group>"; };
 		46BDBEA51DE3F25B00CD7963 /* Nori.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nori.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46BDBEA81DE3F25B00CD7963 /* Nori.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nori.h; sourceTree = "<group>"; };
 		46BDBEA91DE3F25B00CD7963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				46B0F7141DE431F900BEB69F /* Info.plist */,
 				46B0F71B1DE4325000BEB69F /* ViewStyleTests.swift */,
 				46B0F71D1DE4364D00BEB69F /* LabelStyleTests.swift */,
+				46B8316E1DE6640C00F64487 /* BorderStyleTests.swift */,
 			);
 			path = NoriTests;
 			sourceTree = "<group>";
@@ -419,6 +422,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46B0F71C1DE4325000BEB69F /* ViewStyleTests.swift in Sources */,
+				46B8316F1DE6640C00F64487 /* BorderStyleTests.swift in Sources */,
 				46B0F71E1DE4364D00BEB69F /* LabelStyleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

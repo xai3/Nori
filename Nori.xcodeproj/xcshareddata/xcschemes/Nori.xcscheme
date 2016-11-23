@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "46B0F70F1DE431F900BEB69F"
+               BuildableName = "NoriTests.xctest"
+               BlueprintName = "NoriTests"
+               ReferencedContainer = "container:Nori.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "46BDBEA41DE3F25B00CD7963"
+            BuildableName = "Nori.framework"
+            BlueprintName = "Nori"
+            ReferencedContainer = "container:Nori.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
