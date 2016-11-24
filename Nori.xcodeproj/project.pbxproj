@@ -17,6 +17,7 @@
 		46B831711DE66A0600F64487 /* ShadowStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B831701DE66A0600F64487 /* ShadowStyleTests.swift */; };
 		46B831731DE66C3600F64487 /* SwitchStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B831721DE66C3600F64487 /* SwitchStyleTests.swift */; };
 		46B831751DE66DEF00F64487 /* ImageViewStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B831741DE66DEF00F64487 /* ImageViewStyleTests.swift */; };
+		46B831771DE672DB00F64487 /* TextFieldStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B831761DE672DB00F64487 /* TextFieldStyleTests.swift */; };
 		46BDBEAA1DE3F25B00CD7963 /* Nori.h in Headers */ = {isa = PBXBuildFile; fileRef = 46BDBEA81DE3F25B00CD7963 /* Nori.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46BDBEBB1DE3F39400CD7963 /* ViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDBEB91DE3F39400CD7963 /* ViewStyle.swift */; };
 		46BDBEBD1DE3F3A300CD7963 /* BorderStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDBEBC1DE3F3A300CD7963 /* BorderStyle.swift */; };
@@ -79,6 +80,7 @@
 		46B831701DE66A0600F64487 /* ShadowStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowStyleTests.swift; sourceTree = "<group>"; };
 		46B831721DE66C3600F64487 /* SwitchStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchStyleTests.swift; sourceTree = "<group>"; };
 		46B831741DE66DEF00F64487 /* ImageViewStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewStyleTests.swift; sourceTree = "<group>"; };
+		46B831761DE672DB00F64487 /* TextFieldStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldStyleTests.swift; sourceTree = "<group>"; };
 		46BDBEA51DE3F25B00CD7963 /* Nori.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nori.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46BDBEA81DE3F25B00CD7963 /* Nori.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nori.h; sourceTree = "<group>"; };
 		46BDBEA91DE3F25B00CD7963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				46B831701DE66A0600F64487 /* ShadowStyleTests.swift */,
 				46B831721DE66C3600F64487 /* SwitchStyleTests.swift */,
 				46B831741DE66DEF00F64487 /* ImageViewStyleTests.swift */,
+				46B831761DE672DB00F64487 /* TextFieldStyleTests.swift */,
 			);
 			path = NoriTests;
 			sourceTree = "<group>";
@@ -435,6 +438,7 @@
 				46B831751DE66DEF00F64487 /* ImageViewStyleTests.swift in Sources */,
 				46B8316F1DE6640C00F64487 /* BorderStyleTests.swift in Sources */,
 				46B0F71E1DE4364D00BEB69F /* LabelStyleTests.swift in Sources */,
+				46B831771DE672DB00F64487 /* TextFieldStyleTests.swift in Sources */,
 				46B831711DE66A0600F64487 /* ShadowStyleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
