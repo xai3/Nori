@@ -21,6 +21,9 @@ public extension UIButton {
         
         let image = style.image?.image ?? self.image(for: state)
         setImage(image, for: state)
+
+        contentEdgeInsets ??= style.contentEdgeInsets
+        titleEdgeInsets ??= style.titleEdgeInsets
         imageEdgeInsets ??= style.imageEdgeInsets
     }
 }

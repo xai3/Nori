@@ -9,6 +9,8 @@
 public class ButtonStyle: ViewStyle {
     public var title: LabelStyle?
     public var image: ImageViewStyle?
+    public var contentEdgeInsets: UIEdgeInsets?
+    public var titleEdgeInsets: UIEdgeInsets?
     public var imageEdgeInsets: UIEdgeInsets?
     
     public convenience init(closure: (ButtonStyle) -> Void) {
