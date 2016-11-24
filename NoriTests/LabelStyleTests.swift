@@ -10,6 +10,15 @@ import XCTest
 @testable import Nori
 
 class LabelStyleTests: XCTestCase {
+    func testSuperViewStyle() {
+        let view = UILabel()
+        let style = SwitchStyle {
+            $0.backgroundColor = UIColor.blue
+        }
+        view.stylize(with: style)
+        XCTAssertEqual(view.backgroundColor?.cgColor, style.backgroundColor?.cgColor)
+    }
+    
     func testTextColor() {
         let style = LabelStyle {
             $0.textColor = UIColor.green
