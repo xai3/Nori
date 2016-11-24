@@ -18,6 +18,9 @@
 		46B831731DE66C3600F64487 /* SwitchStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B831721DE66C3600F64487 /* SwitchStyleTests.swift */; };
 		46B831751DE66DEF00F64487 /* ImageViewStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B831741DE66DEF00F64487 /* ImageViewStyleTests.swift */; };
 		46B831771DE672DB00F64487 /* TextFieldStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B831761DE672DB00F64487 /* TextFieldStyleTests.swift */; };
+		46B8317F1DE68B4100F64487 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B8317E1DE68B4100F64487 /* LoginTextField.swift */; };
+		46B831821DE68DCC00F64487 /* DefaultSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B831811DE68DCC00F64487 /* DefaultSwitch.swift */; };
+		46B831841DE68E3700F64487 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B831831DE68E3700F64487 /* LoginButton.swift */; };
 		46BDBEAA1DE3F25B00CD7963 /* Nori.h in Headers */ = {isa = PBXBuildFile; fileRef = 46BDBEA81DE3F25B00CD7963 /* Nori.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46BDBEBB1DE3F39400CD7963 /* ViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDBEB91DE3F39400CD7963 /* ViewStyle.swift */; };
 		46BDBEBD1DE3F3A300CD7963 /* BorderStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDBEBC1DE3F3A300CD7963 /* BorderStyle.swift */; };
@@ -81,6 +84,9 @@
 		46B831721DE66C3600F64487 /* SwitchStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchStyleTests.swift; sourceTree = "<group>"; };
 		46B831741DE66DEF00F64487 /* ImageViewStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewStyleTests.swift; sourceTree = "<group>"; };
 		46B831761DE672DB00F64487 /* TextFieldStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldStyleTests.swift; sourceTree = "<group>"; };
+		46B8317E1DE68B4100F64487 /* LoginTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
+		46B831811DE68DCC00F64487 /* DefaultSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultSwitch.swift; sourceTree = "<group>"; };
+		46B831831DE68E3700F64487 /* LoginButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
 		46BDBEA51DE3F25B00CD7963 /* Nori.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nori.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46BDBEA81DE3F25B00CD7963 /* Nori.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nori.h; sourceTree = "<group>"; };
 		46BDBEA91DE3F25B00CD7963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -157,6 +163,22 @@
 				46B831761DE672DB00F64487 /* TextFieldStyleTests.swift */,
 			);
 			path = NoriTests;
+			sourceTree = "<group>";
+		};
+		46B8317D1DE68B2B00F64487 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				46B8317E1DE68B4100F64487 /* LoginTextField.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		46B831801DE68DBC00F64487 /* Switch */ = {
+			isa = PBXGroup;
+			children = (
+				46B831811DE68DCC00F64487 /* DefaultSwitch.swift */,
+			);
+			path = Switch;
 			sourceTree = "<group>";
 		};
 		46BDBE9B1DE3F25B00CD7963 = {
@@ -261,6 +283,8 @@
 				46B0F7061DE419C400BEB69F /* StyleGuide.swift */,
 				46BDBF021DE3FA6600CD7963 /* Buttons */,
 				46BDBF041DE3FA6600CD7963 /* Labels */,
+				46B8317D1DE68B2B00F64487 /* TextField */,
+				46B831801DE68DBC00F64487 /* Switch */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -271,6 +295,7 @@
 				46BDBF031DE3FA6600CD7963 /* PositiveButton.swift */,
 				46B0F7081DE42D6500BEB69F /* NegativeButton.swift */,
 				46B0F70A1DE42D8100BEB69F /* LinkButton.swift */,
+				46B831831DE68E3700F64487 /* LoginButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -476,6 +501,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46B0F7071DE419C400BEB69F /* StyleGuide.swift in Sources */,
+				46B831841DE68E3700F64487 /* LoginButton.swift in Sources */,
 				46BDBF051DE3FA6600CD7963 /* PositiveButton.swift in Sources */,
 				46BDBF091DE3FA8100CD7963 /* MediumLabel.swift in Sources */,
 				46BDBEEF1DE3F9C700CD7963 /* ViewController.swift in Sources */,
@@ -483,7 +509,9 @@
 				46BDBF0B1DE3FA8C00CD7963 /* SmallLabel.swift in Sources */,
 				46B0F70B1DE42D8100BEB69F /* LinkButton.swift in Sources */,
 				46BDBEED1DE3F9C700CD7963 /* AppDelegate.swift in Sources */,
+				46B831821DE68DCC00F64487 /* DefaultSwitch.swift in Sources */,
 				46B0F7091DE42D6500BEB69F /* NegativeButton.swift in Sources */,
+				46B8317F1DE68B4100F64487 /* LoginTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -57,6 +57,26 @@
                                             <segue destination="BYZ-38-t0r" kind="show" id="yK5-QE-xrz"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="ulk-a2-jgc" style="IBUITableViewCellStyleDefault" id="GRO-2B-KOX">
+                                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GRO-2B-KOX" id="GDF-l3-wvs">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Label &amp; Switch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ulk-a2-jgc">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="T5L-rL-Kpd" kind="show" id="SIX-0x-QPD"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -84,7 +104,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="IFq-TM-Ej6">
-                                <rect key="frame" x="16" y="84" width="343" height="303.5"/>
+                                <rect key="frame" x="16" y="84" width="343" height="12150.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nori" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3q-cU-dle" customClass="LargeLabel" customModule="NoriExample" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="58.5" height="38.5"/>
@@ -93,25 +113,25 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nori is a library for designing Storyboard with source code." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yB8-LD-Gvp" customClass="SmallLabel" customModule="NoriExample" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="58.5" width="343" height="33.5"/>
+                                        <rect key="frame" x="0.0" y="58.5" width="0.0" height="5957"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="License" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjX-xi-cVK" customClass="MediumLabel" customModule="NoriExample" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="112" width="69.5" height="24"/>
+                                        <rect key="frame" x="0.0" y="6035.5" width="69.5" height="24"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nori is released under the MIT license. See LICENSE for details." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H3C-SQ-IUx" customClass="SmallLabel" customModule="NoriExample" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="156" width="340" height="33.5"/>
+                                        <rect key="frame" x="0.0" y="6079.5" width="0.0" height="5957"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sxe-jj-RA1">
-                                        <rect key="frame" x="0.0" y="209.5" width="343" height="42"/>
+                                        <rect key="frame" x="0.0" y="12056.5" width="343" height="42"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hm7-30-fh7" customClass="PositiveButton" customModule="NoriExample" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="166.5" height="42"/>
@@ -124,7 +144,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sgl-PG-Wqp" customClass="LinkButton" customModule="NoriExample" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="271.5" width="343" height="32"/>
+                                        <rect key="frame" x="0.0" y="12118.5" width="343" height="32"/>
                                         <state key="normal" title="View on Github"/>
                                     </button>
                                 </subviews>
@@ -141,6 +161,75 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="30" y="330"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8g3-cG-Xi8">
+            <objects>
+                <viewController id="T5L-rL-Kpd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mTU-ST-3XF"/>
+                        <viewControllerLayoutGuide type="bottom" id="d5T-OL-031"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ElC-rT-HMj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="pqh-yE-SNW">
+                                <rect key="frame" x="16" y="84" width="343" height="211"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Log in to hogehoge" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bcZ-ez-JlP" customClass="MediumLabel" customModule="NoriExample" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone, email or username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T8C-F0-hNw" customClass="LoginTextField" customModule="NoriExample" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44" width="343" height="17"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="08L-8S-ZlT" customClass="LoginTextField" customModule="NoriExample" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="81" width="343" height="17"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AAX-0C-oYn">
+                                        <rect key="frame" x="0.0" y="118" width="343" height="31"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remenber me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4xr-eN-8ph" customClass="SmallLabel" customModule="NoriExample" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="294" height="31"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qiG-dp-m9a" customClass="DefaultSwitch" customModule="NoriExample" customModuleProvider="target">
+                                                <rect key="frame" x="294" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4kh-aH-dfD" customClass="LoginButton" customModule="NoriExample" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="169" width="343" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="HuX-jV-Zk1"/>
+                                        </constraints>
+                                        <state key="normal" title="Log in"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pqh-yE-SNW" firstAttribute="leading" secondItem="ElC-rT-HMj" secondAttribute="leadingMargin" id="8lA-ci-skx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pqh-yE-SNW" secondAttribute="trailing" id="hiS-yW-IQe"/>
+                            <constraint firstItem="pqh-yE-SNW" firstAttribute="top" secondItem="mTU-ST-3XF" secondAttribute="bottom" constant="20" id="l9v-g6-W2Y"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cvm-gW-lKl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="30" y="1049"/>
         </scene>
     </scenes>
 </document>
