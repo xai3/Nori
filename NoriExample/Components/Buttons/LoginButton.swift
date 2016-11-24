@@ -18,4 +18,8 @@ import Nori
             }
         }
     }
+    
+    override var intrinsicContentSize: CGSize {
+        return CGSize(width: 0, height: 42)
+    }
 }
