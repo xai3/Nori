@@ -9,6 +9,6 @@
 public extension UIImageView {
     public func stylize(with style: ImageViewStyle) {
         super.stylize(with: style)
-        image ??= style.image
+        style.stylizeTo(imageView: self)
     }
 }
