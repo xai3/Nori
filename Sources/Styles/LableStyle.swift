@@ -17,4 +17,13 @@ public class LabelStyle: ViewStyle {
         self.init()
         closure(self)
     }
+    
+    public func stylizeTo(label: UILabel) {
+        label.textColor ??= textColor
+        label.font ??= font
+        label.textAlignment ??= align
+        label.numberOfLines ??= lines
+        label.minimumScaleFactor ??= minimumScale
+        label.adjustsFontSizeToFitWidth = label.minimumScaleFactor > 0.0
+    }
 }
