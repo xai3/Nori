@@ -9,6 +9,6 @@
 public extension UISwitch {
     public func stylize(with style: SwitchStyle) {
         super.stylize(with: style)
-        onTintColor ??= style.onTintColor
+        style.stylizeTo(view: self)
     }
 }

@@ -13,4 +13,8 @@ public class SwitchStyle: ViewStyle {
         self.init()
         closure(self)
     }
+    
+    public func stylizeTo(view: UISwitch) {
+        view.onTintColor ??= onTintColor
+    }
 }
