@@ -1,5 +1,5 @@
 //
-//  NegativeButton.swift
+//  StarButton.swift
 //  Nori
 //
 //  Created by yukiasai on 11/22/16.
@@ -8,10 +8,10 @@
 
 import Nori
 
-@IBDesignable class NegativeButton: StyleableButton {
+@IBDesignable class StarButton: StyleableButton {
     override func intrinsicStyle(for state: UIControlState) -> ButtonStyle {
         return ButtonStyle {
-            $0.backgroundColor = Color.red.color
+            $0.backgroundColor = Color.green.color
             $0.cornerRadius = 10
             $0.title = LabelStyle {
                 $0.textColor = UIColor.white
