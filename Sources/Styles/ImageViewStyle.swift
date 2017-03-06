@@ -13,4 +13,8 @@ public class ImageViewStyle: ViewStyle {
         self.init()
         closure(self)
     }
+    
+    public func stylizeTo(imageView: UIImageView) {
+        imageView.image ??= image
+    }
 }

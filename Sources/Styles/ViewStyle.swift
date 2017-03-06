@@ -21,4 +21,19 @@ public class ViewStyle {
         self.init()
         closure(self)
     }
+    
+    public func stylizeTo(view: UIView) {
+        view.backgroundColor ??= backgroundColor
+        view.tintColor ??= tintColor
+        view.alpha ??= alpha
+        view.layer.cornerRadius ??= cornerRadius
+        view.layer.borderWidth ??= border?.width
+        view.layer.borderColor ??= border?.color?.cgColor
+        view.layer.shadowOffset ??= shadow?.offset
+        view.layer.shadowRadius ??= shadow?.radius
+        view.layer.shadowOpacity ??= shadow?.opacity
+        view.layer.shadowColor ??= shadow?.color?.cgColor
+        view.layer.masksToBounds = shadow != nil
+        view.contentMode ??= contentMode
+    }
 }
