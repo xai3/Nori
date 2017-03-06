@@ -50,6 +50,6 @@ It's same as the Label.
 * TextField
 * Switch
 
-# License
+## License
 
 Nori is released under the MIT license. See LICENSE for details.
