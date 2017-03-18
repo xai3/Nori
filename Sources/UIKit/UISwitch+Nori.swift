@@ -7,8 +7,10 @@
 //
 
 public extension UISwitch {
-    public func stylize(with style: SwitchStyle) {
+    @discardableResult
+    public func stylize(with style: SwitchStyle) -> UISwitch {
         super.stylize(with: style)
         style.stylizeTo(view: self)
+        return self
     }
 }

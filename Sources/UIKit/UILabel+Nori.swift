@@ -7,8 +7,10 @@
 //
 
 public extension UILabel {
-    public func stylize(with style: LabelStyle) {
+    @discardableResult
+    public func stylize(with style: LabelStyle) -> UILabel {
         super.stylize(with: style)
         style.stylizeTo(label: self)
+        return self
     }
 }
