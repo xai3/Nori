@@ -16,4 +16,11 @@ public class TextFieldStyle: ViewStyle {
         self.init()
         closure(self)
     }
+    
+    public func stylizeTo(textField: UITextField) {
+        textField.textColor ??= textColor
+        textField.font ??= font
+        textField.borderStyle ??= borderStyle
+        textField.textAlignment ??= align
+    }
 }
