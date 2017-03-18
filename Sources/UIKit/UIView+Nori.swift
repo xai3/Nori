@@ -9,8 +9,10 @@
 import UIKit
 
 @IBDesignable public extension UIView {
-    public func stylize(with style: ViewStyle) {
+    @discardableResult
+    public func stylize(with style: ViewStyle) -> UIView {
         style.stylizeTo(view: self)
+        return self
     }
 }
 

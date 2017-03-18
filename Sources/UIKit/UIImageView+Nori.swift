@@ -7,8 +7,10 @@
 //
 
 public extension UIImageView {
-    public func stylize(with style: ImageViewStyle) {
+    @discardableResult
+    public func stylize(with style: ImageViewStyle) -> UIImageView {
         super.stylize(with: style)
         style.stylizeTo(imageView: self)
+        return self
     }
 }
