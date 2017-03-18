@@ -10,10 +10,7 @@ public extension UITextField {
     @discardableResult
     public func stylize(with style: TextFieldStyle) -> UITextField {
         super.stylize(with: style)
-        textColor ??= style.textColor
-        font ??= style.font
-        borderStyle ??= style.borderStyle
-        textAlignment ??= style.align
+        style.stylizeTo(textField: self)
         return self
     }
 }
