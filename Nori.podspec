@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'Nori'
-  s.version = '0.1.0'
+  s.version = '0.2.0'
   s.license = 'MIT'
   s.homepage = 'https://github.com/yukiasai/'
   s.summary = 'Library for designing Storyboard with source code.'
