@@ -61,7 +61,7 @@ class LabelStyleTests: XCTestCase {
         }
         let view = UILabel()
         view.stylize(with: style)
-        XCTAssertEqualWithAccuracy(view.minimumScaleFactor, style.minimumScale!, accuracy: CGFloat(FLT_EPSILON))
+        XCTAssertEqual(view.minimumScaleFactor, style.minimumScale!, accuracy: CGFloat(Float.ulpOfOne))
         XCTAssertTrue(view.adjustsFontSizeToFitWidth)
     }
 }

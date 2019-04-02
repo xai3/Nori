@@ -10,7 +10,7 @@ public class TextFieldStyle: ViewStyle {
     public var textColor: UIColor?
     public var font: UIFont?
     public var align: NSTextAlignment?
-    public var borderStyle: UITextBorderStyle?
+    public var borderStyle: UITextField.BorderStyle?
     
     public convenience init(closure: (TextFieldStyle) -> Void) {
         self.init()

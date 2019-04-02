@@ -8,7 +8,7 @@
 
 public extension UIButton {
     @discardableResult
-    public func stylize(with style: ButtonStyle, for state: UIControlState) -> UIButton {
+    public func stylize(with style: ButtonStyle, for state: UIControl.State) -> UIButton {
         super.stylize(with: style)
         style.stylizeTo(button: self, state: state)
         return self

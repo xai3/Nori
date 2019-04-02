@@ -29,12 +29,12 @@ open class StyleableButton: UIButton {
         setupStyle(for: state)
     }
     
-    open func setupStyle(for state: UIControlState) {
+    open func setupStyle(for state: UIControl.State) {
         let style = intrinsicStyle(for: state)
         stylize(with: style, for: state)
     }
     
-    open func intrinsicStyle(for state: UIControlState) -> ButtonStyle {
+    open func intrinsicStyle(for state: UIControl.State) -> ButtonStyle {
         return ButtonStyle()
     }
 }

@@ -18,7 +18,7 @@ public class ButtonStyle: ViewStyle {
         closure(self)
     }
     
-    public func stylizeTo(button: UIButton, state: UIControlState) {
+    public func stylizeTo(button: UIButton, state: UIControl.State) {
         if let titleStyle = title {
             button.titleLabel?.stylize(with: titleStyle)
             let color = titleStyle.textColor ?? button.titleColor(for: state)

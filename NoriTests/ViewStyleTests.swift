@@ -34,7 +34,7 @@ class ViewStyleTests: XCTestCase {
             $0.alpha = 0.88
         }
         view.stylize(with: style)
-        XCTAssertEqualWithAccuracy(view.alpha, style.alpha!, accuracy: CGFloat(FLT_EPSILON))
+        XCTAssertEqual(view.alpha, style.alpha!, accuracy: CGFloat(Float.ulpOfOne))
     }
     
     func testCornerRadius() {
@@ -43,7 +43,7 @@ class ViewStyleTests: XCTestCase {
             $0.cornerRadius = 12
         }
         view.stylize(with: style)
-        XCTAssertEqualWithAccuracy(view.layer.cornerRadius, style.cornerRadius!, accuracy: CGFloat(FLT_EPSILON))
+        XCTAssertEqual(view.layer.cornerRadius, style.cornerRadius!, accuracy: CGFloat(Float.ulpOfOne))
     }
     
     func testContentMode() {
