@@ -40,7 +40,7 @@ class ShadowStyleTests: XCTestCase {
             }
         }
         view.stylize(with: style)
-        XCTAssertEqualWithAccuracy(view.layer.shadowRadius, style.shadow!.radius!, accuracy: CGFloat(FLT_EPSILON))
+        XCTAssertEqual(view.layer.shadowRadius, style.shadow!.radius!, accuracy: CGFloat(Float.ulpOfOne))
     }
     
     func testShadowOpacity() {
@@ -51,6 +51,6 @@ class ShadowStyleTests: XCTestCase {
             }
         }
         view.stylize(with: style)
-        XCTAssertEqualWithAccuracy(view.layer.shadowOpacity, style.shadow!.opacity!, accuracy: FLT_EPSILON)
+        XCTAssertEqual(view.layer.shadowOpacity, style.shadow!.opacity!, accuracy: Float.ulpOfOne)
     }
 }

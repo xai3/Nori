@@ -29,6 +29,6 @@ class BorderStyleTests: XCTestCase {
             }
         }
         view.stylize(with: style)
-        XCTAssertEqualWithAccuracy(view.layer.borderWidth, style.border!.width!, accuracy: CGFloat(FLT_EPSILON))
+        XCTAssertEqual(view.layer.borderWidth, style.border!.width!, accuracy: CGFloat(Float.ulpOfOne))
     }
 }

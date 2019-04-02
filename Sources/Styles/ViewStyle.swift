@@ -13,7 +13,7 @@ public class ViewStyle {
     public var cornerRadius: CGFloat?
     public var border: BorderStyle?
     public var shadow: ShadowStyle?
-    public var contentMode: UIViewContentMode?
+    public var contentMode: UIView.ContentMode?
     
     public init() {}
     
