@@ -12,7 +12,7 @@ import Nori
     override func intrinsicStyle(for state: UIControlState) -> ButtonStyle {
         return ButtonStyle {
             $0.backgroundColor = Color.green.color
-            $0.cornerRadius = 10
+            $0.cornerStyle = CornerStyle(corner: .allCorners, radius: 10)
             $0.title = LabelStyle {
                 $0.textColor = UIColor.white
             }

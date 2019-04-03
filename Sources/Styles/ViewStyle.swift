@@ -10,7 +10,7 @@ public class ViewStyle {
     public var backgroundColor: UIColor?
     public var tintColor: UIColor?
     public var alpha: CGFloat?
-    public var cornerRadius: CGFloat?
+    public var cornerStyle: CornerStyle?
     public var border: BorderStyle?
     public var shadow: ShadowStyle?
     public var contentMode: UIView.ContentMode?
@@ -26,7 +26,6 @@ public class ViewStyle {
         view.backgroundColor ??= backgroundColor
         view.tintColor ??= tintColor
         view.alpha ??= alpha
-        view.layer.cornerRadius ??= cornerRadius
         view.layer.borderWidth ??= border?.width
         view.layer.borderColor ??= border?.color?.cgColor
         view.layer.shadowOffset ??= shadow?.offset
@@ -35,5 +34,18 @@ public class ViewStyle {
         view.layer.shadowColor ??= shadow?.color?.cgColor
         view.layer.masksToBounds = shadow != nil
         view.contentMode ??= contentMode
+        stylizeCornerStyle(view: view, cornerStyle: cornerStyle)
+    }
+
+    private func stylizeCornerStyle(view: UIView, cornerStyle: CornerStyle?) {
+        guard let cornerStyle = cornerStyle else {
+            view.layer.mask = nil
+            return
+        }
+        let path = UIBezierPath(roundedRect: view.bounds, byRoundingCorners: cornerStyle.corner, cornerRadii: CGSize(width: cornerStyle.radius, height: cornerStyle.radius))
+        let mask = CAShapeLayer()
+        mask.frame = view.bounds
+        mask.path = path.cgPath
+        view.layer.mask = mask
     }
 }

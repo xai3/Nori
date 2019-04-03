@@ -52,6 +52,7 @@
 		46BDBF071DE3FA7400CD7963 /* LargeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDBF061DE3FA7400CD7963 /* LargeLabel.swift */; };
 		46BDBF091DE3FA8100CD7963 /* MediumLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDBF081DE3FA8100CD7963 /* MediumLabel.swift */; };
 		46BDBF0B1DE3FA8C00CD7963 /* SmallLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDBF0A1DE3FA8C00CD7963 /* SmallLabel.swift */; };
+		D24E829B225492570030CB4C /* CornerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24E829A225492570030CB4C /* CornerStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +123,7 @@
 		46BDBF061DE3FA7400CD7963 /* LargeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeLabel.swift; sourceTree = "<group>"; };
 		46BDBF081DE3FA8100CD7963 /* MediumLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumLabel.swift; sourceTree = "<group>"; };
 		46BDBF0A1DE3FA8C00CD7963 /* SmallLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallLabel.swift; sourceTree = "<group>"; };
+		D24E829A225492570030CB4C /* CornerStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +235,7 @@
 				46BDBEC21DE3F41300CD7963 /* LableStyle.swift */,
 				46BDBEC41DE3F42600CD7963 /* TextFieldStyle.swift */,
 				46BDBEC61DE3F45700CD7963 /* SwitchStyle.swift */,
+				D24E829A225492570030CB4C /* CornerStyle.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -481,6 +484,7 @@
 				46BDBEC91DE3F46800CD7963 /* ButtonStyle.swift in Sources */,
 				46BDBEBB1DE3F39400CD7963 /* ViewStyle.swift in Sources */,
 				46BDBEE31DE3F89200CD7963 /* StyleableTextField.swift in Sources */,
+				D24E829B225492570030CB4C /* CornerStyle.swift in Sources */,
 				46BDBEDB1DE3F76F00CD7963 /* UISwitch+Nori.swift in Sources */,
 				46BDBEE11DE3F81A00CD7963 /* StyleableLabel.swift in Sources */,
 				46BDBECE1DE3F52100CD7963 /* Operators.swift in Sources */,

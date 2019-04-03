@@ -20,6 +20,11 @@ open class StyleableView: UIView {
             setupStyle()
         #endif
     }
+
+    open override func layoutSubviews() {
+        super.layoutSubviews()
+        setupStyle()
+    }
     
     open func setupStyle() {
         stylize(with: intrinsicStyle())

@@ -36,15 +36,10 @@ class ViewStyleTests: XCTestCase {
         view.stylize(with: style)
         XCTAssertEqual(view.alpha, style.alpha!, accuracy: CGFloat(Float.ulpOfOne))
     }
-    
-    func testCornerRadius() {
-        let view = UIView()
-        let style = ViewStyle {
-            $0.cornerRadius = 12
-        }
-        view.stylize(with: style)
-        XCTAssertEqual(view.layer.cornerRadius, style.cornerRadius!, accuracy: CGFloat(Float.ulpOfOne))
-    }
+
+    // I don't have an idea to test CornerStyle
+//    func testCornerStyle() {
+//    }
     
     func testContentMode() {
         let view = UIView()

@@ -20,6 +20,11 @@ open class StyleableButton: UIButton {
             setupStyle()
         #endif
     }
+
+    open override func layoutSubviews() {
+        super.layoutSubviews()
+        setupStyle()
+    }
     
     override open var isEnabled: Bool {
         didSet { setupStyle(for: state) }
